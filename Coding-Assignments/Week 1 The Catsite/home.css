@@ -1,0 +1,101 @@
+/*
+These are the main style points across all pages and elements!
+The images are all centered and have the same height.
+And the Buttons have a specific style to them!
+Then I made all Paragraphs have large text, with the headers being centered.
+*/
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+th,td {
+    text-align: center;
+    border: 4px solid rgb(131, 131, 131);
+    background-color: rgb(240, 240, 240);
+}
+
+img {
+    height: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(201, 203, 206);
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+/*
+Here are Id's that will work with the colors of different parts of the specific pages.
+*/
+
+#homeBackground {
+    background-color: gainsboro;
+}
+
+#libbyBackground {
+    background-color: rgb(241, 210, 215);
+}
+
+#kikiBackground {
+    background-color: rgb(207, 250, 207);
+}
+
+#chowderBackground {
+    background-color: rgb(194, 241, 241);
+}
+
+#libbyPhoto {
+    border: 5px solid rgb(253, 148, 230);
+    border-radius: 10px;
+}
+
+#kikiPhoto {
+    border: 5px solid rgb(131, 250, 126);
+    border-radius: 10px;
+}
+
+#chowderPhoto {
+    border: 5px solid rgb(110, 221, 255);
+    border-radius: 10px;
+}
+
+/*
+Here are classes that go to specific sections!
+*/
+
+.quirkBackLib {
+    background-color: rgb(253, 206, 255);
+}
+
+.quirkBackKik {
+    background-color: rgb(140, 253, 183);
+}
+
+.quirkBackChow {
+    background-color: rgb(149, 230, 255);
+}
+
+.alignText {
+    text-align: center;
+    border: 3px dotted white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
