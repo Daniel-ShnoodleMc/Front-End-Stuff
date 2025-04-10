@@ -8,9 +8,12 @@ getElementbyId()
 */
 
 const formButton = document.getElementById('formSubmit')
+
+let idNum = 1
+
 formButton.addEventListener('click', (event) => {
 event.preventDefault()
-let idNum = 0
+
 let name = document.getElementById('name').value
 let size = document.getElementById('size').value
 let color = document.getElementById('color').value
@@ -33,10 +36,15 @@ let colorNode = document.createElement('td')
 colorNode.innerHTML = color
 newTRow.append(colorNode)
 
+
+
 document.getElementById('tBody').appendChild(newTRow)
+
+idNum++
+
 document.getElementById('name').value = ''
 document.getElementById('size').value = ''
 document.getElementById('color').value = ''
 
-idNum++
+
 })
